@@ -1,0 +1,10 @@
+.lista-post {
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.lista-post li a img {
+  border-radius: 10%;
+}

@@ -1,0 +1,87 @@
+.cor-frase {
+  color: red;
+  font-size: 21px;
+}
+.cor-conclusao {
+  color: rgb(136, 136, 0);
+  font-size: 21px;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navegacao {
+  background-color: rgb(230, 230, 230);
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navegacao li a {
+  font-size: 18px;
+}
+main {
+  margin: auto;
+  padding-bottom: 50px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(230, 230, 230),
+    rgb(245, 245, 245),
+    white
+  );
+}
+li {
+  align-content: center;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  gap: 8px;
+  flex-shrink: 1;
+}
+li img {
+  align-content: center;
+  width: 100%;
+}
+li,
+a,
+p {
+  align-content: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+}
+.texto {
+  margin: 0 20px;
+}
+.texto h1 {
+  text-align: center;
+  padding: 35px;
+  font-size: 30px;
+}
+.texto p {
+  text-align: justify;
+  padding: 8px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}
+.lista-redes {
+  display: flex;
+}
+.lista-redes li a img {
+  margin: 15px 15px 15px 0px;
+  width: 25px;
+}
+@media only screen and (max-device-width: 414px) {
+  .lista-redes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
